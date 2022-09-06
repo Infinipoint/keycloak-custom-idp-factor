@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>
+        <module-alias name="deployment.keycloak-custom-idp-factor"/>
+        <dependencies>
+            <module name="org.keycloak.keycloak-services"/>
+            <module name="org.keycloak.keycloak-server-spi"/>
+            <module name="org.keycloak.keycloak-server-spi-private"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
